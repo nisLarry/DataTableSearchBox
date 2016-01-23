@@ -58,9 +58,7 @@
 ##### 属性中编号的意义：
 1. DataTable内置过滤器编号绑定，由此就可以相容於DataTable的过滤请求配置
 例：
- table
-    .columns(编号)
-    .search(值, true);
+`    table.columns(编号).search(值, true);`
 
 2.透过属性中的编号让label、type、status_item结合在一起为一个完整的控件。
 
