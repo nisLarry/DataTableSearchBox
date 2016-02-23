@@ -64,6 +64,7 @@
 
 #### 假如有任何的問題！
 
-你可以寄email: nis131914@gmail.com 或是 你也可以使用 skype:nis131914@hotmail.com
+欢迎使用[issues][1]来给予反馈。
 
 #### 感謝大家的使用。
+[1]: http://192.168.18.19/larrynis/DataTableSearchBox/issues
