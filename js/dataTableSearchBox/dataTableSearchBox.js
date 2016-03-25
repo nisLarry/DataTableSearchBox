@@ -283,12 +283,13 @@
             var random = Math.floor((Math.random() * 1000) + 1);
             var status_box_select = "status_box_select_" + random + "_sb";
             var status_item = "";
-            for (i = 0; i < Object.getOwnPropertyNames(status_arr).length; i++) {
-                status_item += "<li class='text-center' li-type ='" + i + "'>" + status_arr[i] + "</li> ";
+            var first_key = Object.keys(status_arr)[0];
+            for(var key in status_arr){
+                status_item += "<li class='text-center' li-type ='" + key + "'>" + status_arr[key] + "</li> ";
             }
             var dropdown_btn_box = "<div class='btn-group dropdown-submenu'>" +
                 " <button type='button' class='btn btn-default dropdown-toggle' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>" +
-                status_arr[0] +
+                status_arr[first_key] +
                 "</button> " +
                 "<ul id='" + status_box_select + "'class='dropdown-menu'> " +
                 status_item +
